@@ -1,0 +1,12 @@
+#about img {
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+  margin-bottom: 1.7rem;
+  height: 30rem;
+
+  #about p{
+    text-align: center;
+  }
+
+  
