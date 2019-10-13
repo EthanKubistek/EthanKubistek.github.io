@@ -1,5 +1,6 @@
 /* font-family: 'Lobster', cursive;
 font-family: 'Raleway', sans-serif; */
+/* body and all over elements*/
 body {
   box-sizing: border-box;
   margin: 0;
@@ -7,10 +8,12 @@ body {
   background-color: #0c0032;
   color: #edf0f1;
   font-family: 'Raleway', sans-serif;
+  /*background-repeat: no-repeat;*/
 }
 h1,h2,h3,h4,h5 {
   font-family: 'Lobster', cursive;
 }
+/*nav bar*/
  header {
   background: #282828;
 }
@@ -25,10 +28,12 @@ header::after{
 #name {
   float: left;
   padding-left: 20px;
+  
 }
   
 nav {
   float: right;
+  padding-top: 20px;
 }
 
 nav ul {
@@ -53,7 +58,7 @@ text-transform: uppercase;
 }
 
 nav a:hover {
-  color: black;
+  color: #190061;
 
 }
 
@@ -61,19 +66,17 @@ nav a::before {
   content: "";
   display: block;
   height: 5px;
-  background-color: black;
-
+  background-color: #190061;
   position: absolute;
   top: 0;
   width: 0%;
-
   transition: all ease-in-out 250ms;
 }
 
 nav a:hover::before {
 width: 100%;
 }
-
+/*quote*/
 #quote h3 {
   background-color: #190061;
   text-align: center;
@@ -81,24 +84,81 @@ width: 100%;
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 45%;
+  width: 60%;
   color: #ffffff;
-  font-size: 32px;
+  font-size: 4.5em;
 }
 #quote p{
   background-color: #190061;
   text-align: center;
   border-radius: 5px;
   display: flex;
-  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1em;
 }
-#quote img {
-  float: right;
 
+.quoteimg {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
-#about img{
-  width: 380px;
-  height: 400px;
+/*music*/
+.music iframe {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.music p {
+  background-color: #190061;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.music h1 {
+  font-size: 2.5em;
+  padding-left: 20px;
+}
+/*about*/
+.about h1 {
+  font-size: 2.5em;
+  padding-left: 20px;
+}
+
+.about-pic {
+  height: 450px;
+}
+/*projects*/
+.project {
+  background-color: #190061;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+/*education*/
+.edu {
+  background-color: #190061;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+.edu img {
+  width: 500px;
 }
