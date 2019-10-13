@@ -259,3 +259,7 @@ width: 100%;
   font-size: 4em;
   margin-bottom: 25px;
 }
+
+.resume img {
+  width: 60%;
+}
