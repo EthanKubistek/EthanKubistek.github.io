@@ -25,6 +25,8 @@ h1,h2,h3,h4,h5 {
  header {
   background: #282828;
   box-shadow: 10px 5px 5px #190061;
+  position: sticky;
+  top: 0;
 }
 
 header::after{
